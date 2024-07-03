@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery and Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Image Gallery and Slideshow</h1>
+    </header>
+
+    <main>
+        <!-- Image Gallery -->
+        <section class="gallery-section">
+            <h2>Image Gallery</h2>
+            <div class="gallery">
+                <img src="1.jpeg" alt="Image 1" class="thumbnail" onclick="enlargeImage(this);">
+                <img src="2.jpeg" alt="Image 2" class="thumbnail" onclick="enlargeImage(this);">
+                <img src="3.jpeg" alt="Image 3" class="thumbnail" onclick="enlargeImage(this);">
+                <img src="1.jpeg" alt="Image 1" class="thumbnail" onclick="enlargeImage(this);">
+                <img src="2.jpeg" alt="Image 2" class="thumbnail" onclick="enlargeImage(this);">
+                <img src="3.jpeg" alt="Image 3" class="thumbnail" onclick="enlargeImage(this);">
+                <img src="1.jpeg" alt="Image 1" class="thumbnail" onclick="enlargeImage(this);">
+                <img src="2.jpeg" alt="Image 2" class="thumbnail" onclick="enlargeImage(this);">
+                <img src="3.jpeg" alt="Image 3" class="thumbnail" onclick="enlargeImage(this);">
+            </div>
+            <div id="enlargedImageContainer" onclick="this.style.display='none'">
+                <img id="enlargedImage" src="" alt="Enlarged Image">
+            </div>
+        </section>
+
+        <!-- Image Slideshow -->
+        <section class="slideshow-section">
+            <h2>Image Slideshow</h2>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="1.jpeg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="2.jpeg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="3.jpeg" style="width:100%">
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Image Gallery and Slideshow. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
