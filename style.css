@@ -1,0 +1,145 @@
+/* Reset some basic styles */
+body{
+    background-image: url(Dark\ Blue\ Simple\ Dark\ Tech\ and\ Gaming\ Bio-Link\ Website.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+body, h1, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation menu styling */
+nav {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+.content {
+    text-align: center;
+    margin: 2rem auto;
+    width: 80%;
+}
+.img {
+    height: 40px;
+
+}
+.content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: aqua;
+}
+
+.content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #ccc;
+}
+
+.content img {
+    max-width: 100%;
+    height: 200px;
+}
+
+/* Form styling */
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+form {
+    
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ccc;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+
+/* Contact styling */
+
+.p{
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+  
+    margin-left: 200px;
+}
+p{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #ccc;
+    align-items: center;  
+}
+.p1{
+    display: flex;
+    align-items: center;
+    
+    margin-left: 200px;
+}
+p3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ccc;
+    align-items: center;  
+}
